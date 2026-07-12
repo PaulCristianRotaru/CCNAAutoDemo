@@ -4,7 +4,7 @@ import string
 
 def generate_random_sentence():
     subjects = ["The cat", "A robot", "My neighbor", "The code", "An alien"]
-    verbs = ["jumps", "calculates", "dances", "whispers", "runs"]
+    verbs = ["jumps", "calculates", "dances", "whispers", "runs", "flies"]
     objects = ["over a fence", "a secret", "the matrix", "in the rain", "through space"]
     return f"{random.choice(subjects)} {random.choice(verbs)} {random.choice(objects)}."
 
