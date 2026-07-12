@@ -23,3 +23,4 @@ def main(argv=None):
 
 if __name__ == "__main__":
     main()
+print("This is a basic Python script for demonstration purposes.")
